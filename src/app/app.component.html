@@ -1,0 +1,10 @@
+<div (click)="cli()">
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+{{startTimeInSeconds}}
+<span *ngIf="startTimeInSeconds === 0"> ModalOpens</span>
+<button (click)="start()">Start</button>
+<button (click)="close()">Close</button>
+</div>
