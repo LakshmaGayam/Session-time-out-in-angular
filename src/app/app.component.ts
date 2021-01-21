@@ -7,7 +7,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
-  startTimeInSeconds = 300;
+  startTimeInSeconds = 30;
   intervalId: number = 0;
   constructor() {
 this.startTimerFrom30Seconds()
